@@ -2,12 +2,13 @@ create database mall
 use mall
 
 create table product(
-pid int not null,
+pid int not null primary key,
 pname varchar(45),
 price int,
-Vname varchar(45) primary key,
+Vname varchar(45) ,
 
 )
+
 
 create table vendor(
 vid int,
