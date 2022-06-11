@@ -45,6 +45,12 @@ CREATE TABLE CUSTOMER
 	CUSTOMER_CONTACT CHAR(13) NOT NULL,
 	CUSTOMER_ADDRESS VARCHAR(50) NOT NULL,
 )
-create table adm(id int, pass varchar(40))
-insert into adm values(1,'admin')
-select * from adm
+
+create table Customer_order(
+ORDER_ID VARCHAR(15) PRIMARY KEY,
+	EMPLOYEE_ID VARCHAR(15) ,
+	CAR_ID VARCHAR(15) ,
+	CUSTOMER_CNIC CHAR(13),
+	ORDER_DATE DATE NOT NULL,
+	BILL INT NOT NULL,
+)
