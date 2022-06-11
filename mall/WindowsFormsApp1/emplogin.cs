@@ -12,10 +12,10 @@ using System.Data.SqlClient;
 namespace WindowsFormsApp1
 {
     
-    public partial class admin : Form
+    public partial class emplogin : Form
     {
         SqlConnection con = new SqlConnection("Data Source=DESKTOP-75IR95H\\SQLEXPRESS;Initial Catalog=mall;Integrated Security=True");
-        public admin()
+        public emplogin()
         {
             InitializeComponent();
         }
@@ -38,11 +38,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            adminmenu adm = new adminmenu();
-            this.Hide();
-            adm.Show();
-        }
+        
     }
 }

@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin.cs">
+    <Compile Include="choice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="admin.Designer.cs">
-      <DependentUpon>admin.cs</DependentUpon>
+    <Compile Include="choice.Designer.cs">
+      <DependentUpon>choice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emplogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emplogin.Designer.cs">
+      <DependentUpon>emplogin.cs</DependentUpon>
     </Compile>
     <Compile Include="adminmenu.cs">
       <SubType>Form</SubType>
@@ -84,8 +90,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="admin.resx">
-      <DependentUpon>admin.cs</DependentUpon>
+    <EmbeddedResource Include="choice.resx">
+      <DependentUpon>choice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emplogin.resx">
+      <DependentUpon>emplogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminmenu.resx">
       <DependentUpon>adminmenu.cs</DependentUpon>
