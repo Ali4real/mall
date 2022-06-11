@@ -21,5 +21,10 @@ create table employee(
 Eid int,
 Ename varchar(45),
 Edesig varchar(45),
+Esell varchar(45),
+)
+
+create table finance(
+tsales varchar(45),
 
 )
