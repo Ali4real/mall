@@ -45,3 +45,6 @@ CREATE TABLE CUSTOMER
 	CUSTOMER_CONTACT CHAR(13) NOT NULL,
 	CUSTOMER_ADDRESS VARCHAR(50) NOT NULL,
 )
+create table adm(id int, pass varchar(40))
+insert into adm values(1,'admin')
+select * from adm
