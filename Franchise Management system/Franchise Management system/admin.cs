@@ -21,7 +21,7 @@ namespace Franchise_Management_system
 
         private void textBox1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
+            
         }
 
         private void textBox2_Click(object sender, EventArgs e)
