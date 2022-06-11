@@ -1,5 +1,5 @@
-create database Mall
-
+create database mall
+use mall
 
 create table product(
 pid int not null,
@@ -21,7 +21,7 @@ create table employee(
 Eid int,
 Ename varchar(45),
 Edesig varchar(45),
-Esell varchar(45),
+Esell varchar(45)
 )
 
 create table finance(
