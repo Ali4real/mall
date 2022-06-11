@@ -37,5 +37,12 @@ namespace WindowsFormsApp1
                 con.Close();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            adminmenu adm = new adminmenu();
+            this.Hide();
+            adm.Show();
+        }
     }
 }

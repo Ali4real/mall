@@ -52,6 +52,30 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminmenu.Designer.cs">
+      <DependentUpon>adminmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empad.Designer.cs">
+      <DependentUpon>empad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empup.Designer.cs">
+      <DependentUpon>empup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empvr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empvr.Designer.cs">
+      <DependentUpon>empvr.cs</DependentUpon>
+    </Compile>
     <Compile Include="form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminmenu.resx">
+      <DependentUpon>adminmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form1.resx">
       <DependentUpon>form1.cs</DependentUpon>

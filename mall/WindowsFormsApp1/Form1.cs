@@ -21,5 +21,26 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            empad empad = new empad();
+            this.Hide();
+            empad.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            empup empup = new empup();
+            this.Hide();
+            empup.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            empvr empvr = new empvr();
+            this.Hide();
+            empvr.Show();
+        }
     }
 }
