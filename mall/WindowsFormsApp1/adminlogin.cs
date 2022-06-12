@@ -23,5 +23,10 @@ namespace WindowsFormsApp1
             this.Hide();
             choice.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
