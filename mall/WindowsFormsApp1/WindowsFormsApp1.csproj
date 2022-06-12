@@ -105,6 +105,9 @@
     <EmbeddedResource Include="empup.resx">
       <DependentUpon>empup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="empvr.resx">
+      <DependentUpon>empvr.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
