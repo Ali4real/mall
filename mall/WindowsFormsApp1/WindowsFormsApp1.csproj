@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addemp.Designer.cs">
+      <DependentUpon>addemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminterface.Designer.cs">
+      <DependentUpon>adminterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="choice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +102,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addemp.resx">
+      <DependentUpon>addemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminterface.resx">
+      <DependentUpon>adminterface.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="choice.resx">
       <DependentUpon>choice.cs</DependentUpon>
     </EmbeddedResource>
