@@ -42,5 +42,12 @@ namespace WindowsFormsApp1
             this.Hide();
             empvr.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            choice ch = new choice();
+            this.Hide();
+            ch.Show();
+        }
     }
 }
