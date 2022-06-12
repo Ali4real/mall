@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class adminmenu : Form
+    public partial class adminlogin : Form
     {
-        public adminmenu()
+        public adminlogin()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            choice choice = new choice();
+            this.Hide();
+            choice.Show();
         }
     }
 }

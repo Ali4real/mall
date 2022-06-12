@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            adminmenu adminmenu = new adminmenu();
+            adminlogin adminmenu = new adminlogin();
             this.Hide();
             adminmenu.Show();
         }

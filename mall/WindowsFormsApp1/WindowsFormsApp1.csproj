@@ -58,11 +58,11 @@
     <Compile Include="emplogin.Designer.cs">
       <DependentUpon>emplogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminmenu.cs">
+    <Compile Include="adminlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="adminmenu.Designer.cs">
-      <DependentUpon>adminmenu.cs</DependentUpon>
+    <Compile Include="adminlogin.Designer.cs">
+      <DependentUpon>adminlogin.cs</DependentUpon>
     </Compile>
     <Compile Include="empad.cs">
       <SubType>Form</SubType>
@@ -96,8 +96,8 @@
     <EmbeddedResource Include="emplogin.resx">
       <DependentUpon>emplogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminmenu.resx">
-      <DependentUpon>adminmenu.cs</DependentUpon>
+    <EmbeddedResource Include="adminlogin.resx">
+      <DependentUpon>adminlogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
