@@ -21,7 +21,11 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            con.Open();
+            SqlCommand cmd = new SqlCommand("insert into product values('"+textBox1.Text+"','"+textBox2.Text+"','"+textBox3.Text+"','"+textBox4.Text+"')",con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("ho gya yao ni");
         }
 
         private void button2_Click(object sender, EventArgs e)
