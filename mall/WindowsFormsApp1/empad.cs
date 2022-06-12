@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
             SqlCommand cmd = new SqlCommand("insert into product values('"+textBox1.Text+"','"+textBox2.Text+"','"+textBox3.Text+"','"+textBox4.Text+"')",con);
             cmd.ExecuteNonQuery();
             con.Close();
-            MessageBox.Show("ho gya yao ni");
+            MessageBox.Show("record saved successfully....");
         }
 
         private void button2_Click(object sender, EventArgs e)
